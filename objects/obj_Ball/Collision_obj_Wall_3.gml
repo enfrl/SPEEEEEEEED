@@ -1,0 +1,1 @@
+obj_minigame_09.game_over = true;

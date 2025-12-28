@@ -1,0 +1,1 @@
+if(game_start == true && game_finish == false) ingame_timer++;

@@ -1,0 +1,11 @@
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+var r = 184;
+var g = 134;
+var b = 11;  
+var color1 = make_color_rgb(184, 134, 11);
+draw_set_color(color1);
+draw_rectangle(room_width/2-800, room_height/2-60, room_width/2+800, room_height/2+60, false);
+draw_set_color(c_white);
+draw_set_font(DungGeunMo_Smol);
+draw_text(room_width/2, room_height/2, input);
